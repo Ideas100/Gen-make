@@ -22,10 +22,11 @@ or
 
 ## Design:
 
-script :
+**script:**
    - handles argument's from terminal.
    - creates Makefile in current directory.
-do_makefile:
+   
+**do_makefile:**
    - get info about from the given directory.
    - write rules using the info.
 
@@ -49,7 +50,7 @@ Creating Makefile for the test directory file,
 or
 * ``` gen-make -H test/ -s test/ -v ``` 
 
-### Tic-Tac-Toe
+**Tic-Tac-Toe**
 
 Tried generating Makefile for previous project.
 
