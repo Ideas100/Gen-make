@@ -15,6 +15,7 @@ def get_source_type(src_path):
     src_path : source file path
     """
     SRC = ""
+    CC = ""
     clist = glob.glob(src_path + "/*.c")
     cpplist = glob.glob(src_path + "/*.cpp")
 
